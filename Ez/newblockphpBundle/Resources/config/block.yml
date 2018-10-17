@@ -1,0 +1,14 @@
+blocks:
+  newblockphp:
+    name: Nouveau Bloc PHP
+    category: default
+    thumbnail: 'bundles/ezplatformpagefieldtype/images/thumbnails/code.svg'
+    views:
+      default: { name: 'Default block layout', template: 'EznewblockphpBundle::newblockphp.html.twig' }
+    attributes:
+      texte:
+        type: 'text'
+        name: Texte
+        validators:
+          not_blank:
+            message: Merci de remplir le champs

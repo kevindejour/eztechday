@@ -1,0 +1,22 @@
+{% extends 'EzPlatformAdminUiBundle::layout.html.twig' %}
+{% block title %}Nouvelle tab{% endblock %}
+
+{%- block breadcrumbs -%}
+    {% include '@EzPlatformAdminUi/parts/breadcrumbs.html.twig' with { items: [
+        { value: 'Nouvelle tab' }
+    ]} %}
+{%- endblock -%}
+
+{%- block page_title -%}
+    {% include '@EzPlatformAdminUi/parts/page_title.html.twig' with {
+        title: 'Nouvelle tab',
+        iconName: 'article'
+    } %}
+{%- endblock -%}
+
+{%- block content -%}
+    <section class="container my-4">
+        Ceci est ma nouvelle tab
+        et ses variables : {{ variable }}
+    </section>
+{%- endblock -%}

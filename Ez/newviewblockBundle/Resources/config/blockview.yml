@@ -1,0 +1,6 @@
+blocks:
+  embed:
+    views:
+      newview:
+          template: "@@Eznewviewblock/embed.html.twig"
+          name: "Nouvelle vue embed"

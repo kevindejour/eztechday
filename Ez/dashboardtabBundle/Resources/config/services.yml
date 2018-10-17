@@ -1,0 +1,7 @@
+services:
+  Ez\dashboardtabBundle\Tab\Dashboard\Everyone\NewTab:
+    autowire: true
+    autoconfigure: true
+    public: false
+    tags:
+    - { name: ezplatform.tab, group: dashboard-everyone }

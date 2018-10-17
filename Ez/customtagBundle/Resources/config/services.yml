@@ -1,0 +1,4 @@
+services:
+#    ezcustomtag.example:
+#        class: Ez\customtagBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

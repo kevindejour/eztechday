@@ -1,0 +1,4 @@
+system:
+    admin:
+        user:
+            login_template: '@Ezcustomloginpage/login/login.html.twig'

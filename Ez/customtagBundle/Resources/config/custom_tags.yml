@@ -1,0 +1,25 @@
+system:
+  default:
+    fieldtypes:
+      ezrichtext:
+        custom_tags: [textcolor]
+
+ezrichtext:
+  custom_tags:
+    textcolor:
+      template: 'EzcustomtagBundle:custom_tag:textcolor.html.twig'
+      icon: '/bundles/ezplatformadminui/img/ez-icons.svg#tag'
+      attributes:
+        color:
+          type: 'string'
+          required: false
+          default_value: 'red'
+        colorcode:
+          type: 'number'
+          required: false
+          default_value: 000000
+        colorlist:
+          type: 'choice'
+          required: false
+          default_value: 'red'
+          choices: ['red', 'blue', 'green']

@@ -1,0 +1,15 @@
+services:
+  Ez\contenttabBundle\EventListener\:
+    resource: '../../EventListener/*'
+    autowire: true
+    autoconfigure: true
+    public: true
+    tags:
+    - { name: kernel.event_subscriber }
+
+  Ez\contenttabBundle\Controller\:
+    resource: "../../Controller/*"
+    autowire: true
+    autoconfigure: true
+    public: false
+    exclude: "../../Controller/{Controller}"

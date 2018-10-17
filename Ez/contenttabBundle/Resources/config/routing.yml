@@ -1,0 +1,5 @@
+ezcontenttab.newtab:
+  path: /newtab
+  defaults:
+    page: 1
+    _controller: 'EzcontenttabBundle:Tab:newtab'

@@ -1,0 +1,4 @@
+services:
+  Ez\newblockphpBundle\Listener\NewblockphpListener:
+    tags:
+    - { name: kernel.event_subscriber, alias: newblockphp }

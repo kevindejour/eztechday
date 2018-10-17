@@ -1,0 +1,5 @@
+ezrichtext.custom_tags.textcolor.label: Couleur
+ezrichtext.custom_tags.textcolor.description: ''
+ezrichtext.custom_tags.textcolor.attributes.color.label: couleur
+ezrichtext.custom_tags.textcolor.attributes.colorcode.label: Code couleur
+ezrichtext.custom_tags.textcolor.attributes.colorlist.label: liste couleur

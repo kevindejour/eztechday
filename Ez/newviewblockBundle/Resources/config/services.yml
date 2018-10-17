@@ -1,0 +1,4 @@
+services:
+#    eznewviewblock.example:
+#        class: Ez\newviewblockBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
